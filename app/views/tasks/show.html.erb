@@ -1,0 +1,11 @@
+<h1><%= @task.task %></h1>
+
+<p><a href="/tasks/<%= @task.id %>/edit">Edit</a></p>
+
+
+
+<p><a href="/tasks/<%= @task.id %>"
+      data-confirm="Are you sure?"
+      data-method="delete"
+      rel="nofollow">Delete</a></p>
+      <p><a href="/tasks">Return to tasks</a></p>
